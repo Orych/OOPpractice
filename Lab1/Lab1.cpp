@@ -1,6 +1,4 @@
-﻿// Lab1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
-//
-
+﻿
 #include <iostream>
 #include <fstream>
 #include <string>
@@ -13,7 +11,7 @@ struct Args
     std::string outputFileName;
 };
 
-std::optional;<Args> ParseArgs(int argc, char* argv[])
+std::optional <Args> ParseArgs(int argc, char* argv[])
 {
     if (argc != 3)
     {

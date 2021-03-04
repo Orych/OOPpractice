@@ -27,6 +27,8 @@
   <ItemGroup>
     <Text Include="Empty.txt" />
     <Text Include="NonEmpty.txt" />
+    <Text Include="input.txt" />
+    <Text Include="output.txt" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CopyFile.h">
